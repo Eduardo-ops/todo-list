@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #AFEEEE;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+#area-principal {
+    background: #AFEEEE;
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#titulo-principal {
+    background: #000000;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px 2px #BEBEBE;
+    text-align: center;
+}
+
+h1 {
+    color: #FFEFDB;
+    font-family: FreeMono, monospace;
+}
+
+.botao {
+    background: #000000;
+    box-shadow: 0px 0px 8px 2px #BEBEBE;
+    border-radius: 3px;
+    width: 150px;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#todo-list{
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarefas{
+    background: #AFEEEE;
+    box-shadow: 0px 0px 8px 2px #BEBEBE;
+    border: 1px solid #2F4F4F;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#descricao{
+    background: #6495ED;
+    box-shadow: 0px 0px 8px 2px #BEBEBE;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-descricao{
+    background: #6495ED;
+    border: none;
+    font: inherit;
+    outline: none;
+    width: 800px;
+    font-style: italic;
+}
